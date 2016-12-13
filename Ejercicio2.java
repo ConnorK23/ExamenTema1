@@ -1,24 +1,13 @@
-import java.util.*;
+import java.util.Scanner;
 public class Ejercicio2 {
 	public static void main(String[]args) {
-		System.out.println("Introduce la palabra");
+		System.out.println("Introduce el texto");
 		Scanner sc = new Scanner (System.in);
-		String palabraLeida = sc.nextLine();
-		//String palabraLeida2 = sc.next();
+		String textoLeido = sc.nextLine();
 		sc.close();
-		if{
-		System.out.printf("%s%n",palabraLeida.length());
-		System.out.printf("%s%n",palabraLeida.toLowerCase());
 		
-		//System.out.printf("%s%n",palabraLeida);
+		System.out.printf("El texto introducido tiene %s letras %n",textoLeido.length());
+		System.out.printf("Texto en minuscula: %s%nTexto en mayuscula: %s",textoLeido.toLowerCase(),textoLeido.toUpperCase());
 		
-	}
-		
-		/*char letraZ = charAt(palabraLeida.length()-1);
-		switch(palabraLeida){
-			case 'z':
-			System.out.println("Tiene 1 z");
-			break;
-		}*/
 	}
 }
